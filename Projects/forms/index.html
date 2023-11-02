@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de datos personales</title>
+    <link rel="stylesheet" href="css/estilo1.css">
+</head>
+<body>
+    <h1>Estudiantes Udenar</h1>
+    
+  
+    <form>
+        <h2>Registro de datos personales</h2>
+        <label for="txtide">Identificación</label>
+        <input type="number" name="txtide" required min="1000">
+        <br>
+        <!--La cajas de texto que reconoce HTML 5 son: text, number, date, datetime, datetime-local, url, email, password, tel, search, hidden-->
+
+
+        <label for="txtnom">Nombre</label>
+        <input type="text" name="txtnom" required>
+        <br>
+
+
+        <label for="txtsem">Semestre</label>
+        <input type="number" name="txtsem"  required min="1" max="10">
+        <br>
+
+        <label for="lstpro">Programa académico</label>
+        <select name="lstpro">
+            <option value="1">Ingeniería de Sistemas</option>
+            <option value="2">Ingeniería de Electrónica</option>
+            <option value="3">Ingeniería de Civil</option>
+            <option value="4">Ingeniería Mecánica</option>
+            <option value="5">Ingeniería Química</option>
+        </select>
+        <br>
+
+        <label for="txtfec">Fecha de ingreso</label>
+        <input type="date" name="txtfec" required>
+        <br>
+
+        <label for="optgen">Género</label>
+        Femenino<input type="radio"  name="optgen" value="F" checked>
+        Masculino<input type="radio" name="optgen" value="M" >
+        
+        <br>
+
+        <label for="optestado">Estado Civil</label>
+        Soltero<input type="radio"  name="optestado" value="1" required>
+        Union Libre<input type="radio" name="optestado" value="2" required>
+        Casado <input type="radio" name="optestado" value="3" required>
+        <br>
+
+        <label for="lstest">Estrato</label>
+        <select name="lstest">
+            <option>0</option>
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+        </select>
+        <br>
+
+        <label for="txtcor">Correo electrónico</label>
+        <input type="email" name="txtcor">
+        <br>
+
+        <label for="txtpro">Promedio de nota acumulada</label>
+        <input type="number" name="txtpro" required min="0" max="5" step="0.1">
+        <br>
+
+        <label for="chkben">Tiene Beca Alimenticia</label>
+        <input type="checkbox" name="chkben" value="SI">
+        <br>
+        <label for="chkpc">Tiene PC prestado</label>
+        <input type="checkbox" name="chkpc" value="SI">
+        <br>
+        <label for="chksim">Tiene SIM</label>
+        <input type="checkbox" name="chksim" value="SI">
+        <br>
+
+        <hr>
+
+        <!--Botones de comando-->
+        <input type="submit" value="Procesar"> <!--Envio de datos al servidor: tareas: 1. Valida 2. organiza variables 3. envia -->
+        <input type="reset" value="Limpiar"><!--Restaura el formulario a sus valores de inicio-->
+        <input type="button" value="Ver"> <!--Requiere enlazarle el evento click para que responda-->
+        
+
+    </form>
+</body>
+</html>

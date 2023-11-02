@@ -1,0 +1,119 @@
+/*em= tamaño de una M, px=punto en pantalla, pt=tamaño relativo procesador de texto
+%=toma el porcentaje de la pantalla que se este visualizando*/
+
+body{
+    background-color: rgb(245, 237, 215);
+    text-align: center; /*alineacion del texto*/
+}
+
+img{
+    margin: 10px;
+    border-radius: 20px;
+    border: 1px rgb(3, 3, 3) solid;
+
+}
+
+h2{
+    padding: 40px;
+    border-radius: 20px;
+    width: 950px ; /*tamaño*/
+    margin: auto;
+    
+}
+
+h1{
+    background-color: rgb(243, 207, 87);
+    color: rgb(143, 62, 8);
+    padding: 40px;
+    border-radius: 20px;
+    width: 950px ; /*tamaño*/
+    margin: auto;
+    box-shadow: -3px 3px 5px black; /*offset-x, offset-y, blur-radius, color*/
+}
+
+.activo{ /*Clasificador es para aplicar un estilo un determinado grupo de objetos*/
+    background-color: rgb(243, 170, 33);
+    border: 0.5px rgb(143, 62, 8) solid;
+    border-radius: 20px;/*borde*/
+    text-shadow: black 1px 1px;
+    font-weight: bold; /*letra en negrita*/
+    margin: auto;
+   
+}
+
+.sucursal{
+    background-color: rgb(197, 240, 9);
+    display: inline-block;
+    margin: auto; /*centro automatico del objeto*/
+    padding: 10px /*margen interna*/;
+    border-radius: 20px;
+    width: 100px ; /*tamaño*/
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 12pt; /*tamaño de la fuente*/
+    font-family: "Tahoma"; /*Familia de fiente*/
+}
+
+.boton{
+    background-color: rgb(243, 207, 87);
+    display: inline-block;
+    margin: auto; /*centro automatico del objeto*/
+    padding: 10px /*margen interna*/;
+    border-radius: 20px;
+    width: 200px ; /*tamaño*/
+    text-decoration: none;
+}
+
+.boton:hover{ /*seudoclase hover sobre objeto*/
+    background-color: rgb(238, 189, 82);
+    box-shadow: -3px 3px 5px black;
+}
+
+nav{    
+    background-color: rgb(219, 166, 20);
+    margin: auto; /*margenes con respecto a otro objeto*/
+    padding: 25px; /*hacer ancho un objeto*/
+    border: 0.5px rgb(143, 62, 8) solid;
+    border-radius: 20px;/*borde*/
+    width: 950px ; /*tamaño*/
+    
+}
+
+p{
+    padding: 10px;
+    width: 950px ; /*tamaño*/
+    margin: auto;
+}
+
+h4{
+    padding: 10px;
+    width: 950px ; /*tamaño*/
+    margin: auto; 
+}
+
+table{
+    width: 80%; /*relativo al tamaño de la ventana donde se muestre el dispositivo*/
+    margin: auto;
+    border: 1px rgba(219, 166, 20, 0.651) solid;
+    border-collapse: collapse; /*quita el borde doble*/
+}
+
+th{
+    background-color: rgb(243, 170, 33);
+    color: rgb(3, 3, 3);
+    border: 1px black solid;
+}
+
+td{
+    border: 1px black solid;
+}
+
+tr:hover{
+    background-color: rgba(243, 170, 33, 0.63);
+}
+
+#xvid{ /*Referencia a un objeto particular*/
+     width: 70%;
+     padding: 10px;
+     margin: auto;
+}

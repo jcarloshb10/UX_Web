@@ -1,0 +1,52 @@
+h1{
+    background-color: rgb(59, 91, 230);
+    color: rgb(247, 239, 239);
+    text-align: center;
+    padding: 30px;
+    border-bottom: 5px rgb(54, 160, 179) solid;
+}
+
+form{
+    width: 40%;
+    padding: 20px;
+    margin: auto;
+    border: 4px rgb(34, 162, 236) solid;
+    border-radius: 10px;
+}
+
+label{
+    width: 350px;
+    display: inline-block;
+    margin-top: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body{
+    background-color: rgb(231, 239, 243);
+    font-family: "Verdana";
+}
+
+
+input[type="number"], select{
+    background-color: cornsilk;
+    padding: 2px;
+    color: gray;
+}
+
+
+input[type="number"]:focus, select:focus{
+    background-color: lightcyan;
+
+}
+
+input[type="text"], select{
+    background-color: rgb(144, 203, 238);
+    padding: 2px;
+    width: 400px;
+}
+
+h2{
+    background-color: rgb(225, 245, 242);
+    font-family: 'Courier New', Courier, monospace;
+}
+
